@@ -1,0 +1,151 @@
+body {
+  background-image: url("2.png");  
+  background-color: #f8cda9; /* Twisted Tea Peach */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #event-description {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #games {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game {
+    margin-bottom: 20px;
+  }
+  
+  #teams {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  
+  .team-peach {
+    background-color: #ffb476; /* Twisted Tea Peach */
+  }
+  
+  .team-raspberry {
+    background-color: #ff92af; /* Twisted Tea Raspberry */
+  }
+  
+  .team-light {
+    background-color: #74573a; /* Twisted Tea Light */
+  }
+  
+  .team-half-half {
+    background-color: #71afac; /* Twisted Tea Half & Half */
+  }
+  
+  .team-huckleberry {
+    background-color: #9abeda; /* Twisted Tea Huckleberry */
+  }
+  
+  .team-blackberry {
+    background-color: #8c79aa; /* Twisted Tea Blackberry */
+  }
+  
+  .team-mango {
+    background-color: #ffc845; /* Twisted Tea Mango */
+  }
+  
+  .team-og {
+    background-color: #d0c743; /* Twisted Tea Original */
+  }
+  
+  #event-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .detail {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  #rsvp {
+    text-align: center;
+    padding: 20px;
+  }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      label {
+        margin-top: 10px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="number"] {
+        width: 200px;
+        padding: 5px;
+        margin-top: 5px;
+      }
+      
+      input[type="submit"] {
+        background-color: #ff92af; /* Twisted Tea Raspberry */
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #e85c79; /* Twisted Tea Raspberry (dark) */
+      }
+
+      #tealympicsImage{
+        width: 80%;
+      }
+
+      #pizza{
+        width: 30%;
+      }
+
+      #password-form {
+        text-align: center;
+        margin-top: 100px;
+      }
+      
+      #content {
+        text-align: center;
+        margin-top: 50px;
+      }
