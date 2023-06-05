@@ -149,3 +149,7 @@ body {
         text-align: center;
         margin-top: 50px;
       }
+
+      #googleForm{
+        width: 95%;
+      }
