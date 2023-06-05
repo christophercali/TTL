@@ -153,3 +153,42 @@ body {
       #googleForm{
         width: 95%;
       }
+
+      #submit-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        background-color: #ffcc00; /* Twisted Tea yellow */
+        color: #ffffff; /* White text */
+        border-radius: 30px;
+      }
+      
+      /* Hover state */
+      #submit-button:hover {
+        background-color: #ff9900; /* Darker yellow */
+      }
+      
+      /* Active state */
+      #submit-button:active {
+        background-color: #ff6600; /* Orange */
+      }
+      
+      /* Password input */
+      #password-input {
+        display: block;
+        width: 250px;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ffcc00; /* Twisted Tea yellow */
+        border-radius: 5px;
+      }
+      
+      /* Placeholder text color */
+      #password-input::placeholder {
+        color: #999999; /* Light gray */
+      }
